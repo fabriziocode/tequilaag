@@ -1,0 +1,144 @@
+/* Web */
+
+.intro {
+    background-color: #17181A;
+    max-height: 615px;
+    --bs-gutter-x: 0;
+    display: flex;
+}
+
+.introM {
+    display: none;
+}
+
+.imageIntro {
+    display: flex;
+    justify-content: center;
+    img {
+        max-height: 615px;
+        display: flex;
+        margin-top: 69px;
+    }
+}
+
+.textIntro {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        font-family: "Cinzel";
+        font-size: 33px;
+        font-weight: 700;
+        letter-spacing: 40px;
+        display: flex;
+        text-align: center;
+    }
+    img{
+        max-width: 200px;
+        text-align: center;
+    }
+    p {
+        display: flex;
+        margin-top: 40px;
+        margin-right: 40px;
+        font-size: 21px;
+        font-family: "Figtree";
+        font-weight: 300;
+    }
+}
+
+
+/* Reajuste a resolución >1003px*/
+
+@media screen and (max-width: 1003px) {
+    
+    .imageIntro {
+        img {
+            max-height: 550px;
+            margin-top: 110px;
+        }
+    }
+    
+    .textIntro {
+        margin: 0px 50px 0px 20px;
+    }
+    
+    }
+        
+    
+
+
+
+/* Reajuste a resolución >1003px*/
+
+@media screen and (max-width: 1003px) {
+    
+    .imageIntro {
+        img {
+            max-height: 550px;
+            margin-top: 110px;
+        }
+    }
+    
+    .textIntro {
+        margin: 0px 50px 0px 20px;
+    }
+    
+    }
+        
+    
+/* Reajuste a resolución >947px*/
+
+@media screen and (max-width: 947px) {
+    
+    .imageIntro {
+        img {
+            max-height: 450px;
+            margin-top: 196px;
+        }
+    }
+    
+    .textIntro {
+        margin: 0px;
+    }
+    
+    }
+        
+    
+
+
+
+
+    
+/* Reajuste a resolución >868px*/
+
+@media screen and (max-width: 868px) {
+
+.introM {
+    display: flex;
+    background-color: #17181A;
+    max-height: 750px;
+    --bs-gutter-x: 0;
+    display: flex;
+}
+
+.intro {
+    display: none;
+}
+
+.imageIntro {
+    img {
+        max-height: 415px;
+        margin-top: -15PX;
+    }
+}
+
+.textIntro {
+    margin: 0px 50px;
+}
+
+}
+    

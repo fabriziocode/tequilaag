@@ -1,0 +1,36 @@
+.botellas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0px 0px 0px;
+    .botella1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 230px;
+        margin: 0px 20px;
+    }
+    .botella2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 230px;
+        margin: 0px 20px;
+    }
+    .botella3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 230px;
+        margin: 0px 20px;
+    }
+}
+
+.postBote {
+    display: flex;
+    height: 334px;
+    background-image: url("/assets/postBotellas.svg");
+    position: relative;
+    top: -110px;
+    margin-bottom: -190px;
+}
