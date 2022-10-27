@@ -120,7 +120,7 @@ body {
 /* Web */
 .secProceso {
   max-width: 100%;
-  background-image: url("../assets/backProceso.svg");
+  background-image: url("/assets/backProceso.svg");
   background-repeat: cover;
   background-size: auto;
   --bs-gutter-x: 0;
