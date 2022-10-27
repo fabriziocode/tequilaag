@@ -57,6 +57,8 @@
             font-size: 33px;
             font-weight: 700;
             letter-spacing: 30px;
+            display: flex;
+            justify-content: center;
         }
 
         .araBlack {
@@ -68,6 +70,38 @@
             max-width: 820px;
             margin: 60px 0px 200px 0px;
         }
+}
+
+
+/* Reajuste a resolución >581px*/
+
+@media screen and (max-width: 895px) {
+
+    .proceso {
+        margin: 100px 40px;
+    }
+
+}
+
+
+/* Reajuste a resolución >581px*/
+
+@media screen and (max-width: 581px) {
+    .secProceso {
+        .tituloProc{
+            margin: 200px 0px 0px 0px;
+        }
+        .t1Proc {
+            font-size: 23px;
+        }
+        .t2Proc {
+            font-size: 23px;
+        }
+        .aragreen{
+            margin: 0px 25px;
+        }
+
+    }
 }
 
 

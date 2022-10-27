@@ -141,4 +141,33 @@
 }
 
 }
+
+/* Reajuste a resolución >581px*/
+
+@media screen and (max-width: 581px) {
+
+    .introM {
+        display: flex;
+        background-color: #17181A;
+        max-height: 750px;
+        --bs-gutter-x: 0;
+        display: flex;
+    }
+    
+    .intro {
+        display: none;
+    }
+    
+    .imageIntro {
+        img {
+            max-height: 415px;
+            margin-top: -15PX;
+        }
+    }
+    
+    .textIntro {
+        margin: 0px 50px;
+    }
+    
+    }
     

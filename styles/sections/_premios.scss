@@ -13,6 +13,7 @@
         align-items: center;
         position: relative;
         top: -80px;
+        width: 100%;
         img {
             width: 90%;
         }
@@ -29,7 +30,7 @@
         
     }
     .araWhitePre{
-        width: 203px;
+        max-height: 3px;
     }
 
     .logoFoo{
@@ -37,4 +38,42 @@
         height: 125px;
         display: flex;
     }
+}
+
+
+/* Reajuste a resolución >766px*/
+
+@media screen and (max-width: 766px) {
+    .footer {
+        .titleFooter {
+            letter-spacing: 20px;
+    
+        }
+    }
+    
+}
+
+/* Reajuste a resolución >615px*/
+
+@media screen and (max-width: 615px) {
+    .footer {
+        .titleFooter {
+            font-size: 25px;
+    
+        }
+    }
+    
+}
+
+/* Reajuste a resolución >564px*/
+
+@media screen and (max-width: 564px) {
+    .footer {
+        .titleFooter {
+            font-size: 20px;
+            letter-spacing: 15px;
+    
+        }
+    }
+    
 }
