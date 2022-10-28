@@ -54,7 +54,7 @@
         background-repeat: no-repeat;
         background-size: contain;
         background-position: left;
-        margin-left: 25px;
+        margin: 0px 20px 0px 5px;
         // &:hover {
             //     <img src = "/asse";;
             // }
@@ -85,5 +85,135 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        height: 3px;
+    }
+}
+
+
+/* Reajuste a resolución <1300px */
+
+@media screen and (max-width: 1300px) {
+    .productSec {
+        height: 1700px;
+        margin-bottom: 120px;
+        .zoominU {
+            height: 429px;
+        }
+        .zoominD {
+            height: 429px;
+        }
+    }
+
+}
+
+// /* Reajuste a resolución <1100 */
+
+@media screen and (max-width: 1100px) {
+    .productSec {
+        height: 1650px;
+        margin-bottom: 120px;
+        .zoominU {
+            height: 429px;
+        }
+        .zoominD {
+            height: 429px;
+        }
+    }
+    
+    
+}
+
+// /* Reajuste a resolución <899 */
+
+@media screen and (max-width: 899px) {
+    .productSec {
+        height: 1550px;
+        margin-bottom: 120px;
+        .araWhiteProd{
+                width: 200px;
+                height: 3px;
+        }
+        .zoominU {
+            height: 429px;
+        }
+        .zoominD {
+            height: 429px;
+        }
+    } 
+    
+}
+
+
+// /* Reajuste a resolución <809 */
+
+@media screen and (max-width: 809px) {
+    .productSec {
+        height: 1460px;
+        margin-bottom: 120px;
+    } 
+    
+    
+}
+
+/* Reajuste a resolución 731 */
+@media screen and (max-width: 731px) {
+    .productSec {
+        height: 1220px;
+        margin-bottom: 100px;
+        .zoominU {
+            height: 300px;
+        }
+        .zoominD {
+            height: 300px;
+        }
+    } 
+}
+
+/* Reajuste a resolución 641 */
+@media screen and (max-width: 641px) {
+    .productSec {
+        height: 2150px;
+        margin-bottom: 100px;
+        background-size: cover;
+        .zoomin{
+            position: relative;
+            top: -100px;
+            margin: 0px 0px 0px 0px;
+            
+        }
+    } 
+}
+
+// /* Reajuste a resolución <600 */
+
+// @media screen and (max-width: 600px) {
+//     .productSec {
+//         height: 60px;
+//         margin-bottom: 120px;
+//     } 
+    
+// }
+
+
+/* Mobile <500px */
+@media screen and (max-width: 499px) {
+    .productSec {
+        height: 2070px;
+        .imgFoto {
+            img {
+                top: -120px;
+            }
+            
+        }
+        .titleProdSec {
+            width: 99%;
+            .titleProd {
+                font-size: 25px;
+                letter-spacing: 20px;
+            }
+        }
+    }
+    .postBote {
+        height: 200px;
     }
 }

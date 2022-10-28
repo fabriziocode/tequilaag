@@ -34,3 +34,43 @@
     top: -110px;
     margin-bottom: -190px;
 }
+
+
+/* Reajuste resolución <809 px> */
+
+@media screen and (max-width: 809px) {
+    .botellas {
+        img {
+            width: 180px;
+            margin-bottom: 100px;
+        }
+    }
+    
+}
+
+/* Reajuste resolución <731 px> */
+
+@media screen and (max-width: 731px) {
+    .botellas {
+        img {
+            width: 150px;
+        }
+    }
+    
+}
+
+/* Reajuste a resolución <641px */
+
+@media screen and (max-width: 641px) {
+
+    .botellas {
+        display: flex;
+        flex-direction: column;
+        img {
+            width: 190px;
+            margin-bottom: 100px;
+        }
+    }
+    
+}
+

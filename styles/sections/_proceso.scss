@@ -105,3 +105,18 @@
 }
 
 
+/* Mobile <500px */
+@media screen and (max-width: 499px) {
+    .proceso {
+        .titProces {
+            // justify-content: flex-start;
+            font-size: 25px;
+            letter-spacing: 20px;
+        }
+        .map {
+            margin: 60px 0px 80px 0px;
+        }
+    }
+}
+
+

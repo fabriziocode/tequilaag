@@ -40,6 +40,31 @@
     }
 }
 
+/* Reajuste a resolución >1080px*/
+
+@media screen and (max-width: 1080px) {
+    .footer {
+        .botonesPremios {
+            top: -60px;
+    
+        }
+    }
+    
+}
+
+/* Reajuste a resolución >860px*/
+
+@media screen and (max-width: 860px) {
+    .footer {
+        .botonesPremios {
+            top: -45px;
+    
+        }
+    }
+    
+}
+
+
 
 /* Reajuste a resolución >766px*/
 
@@ -59,7 +84,9 @@
     .footer {
         .titleFooter {
             font-size: 25px;
-    
+        }
+        .botonesPremios {
+            top: -30px;
         }
     }
     
@@ -76,4 +103,22 @@
         }
     }
     
+}
+
+
+/* Mobile <500px */
+@media screen and (max-width: 499px) {
+    .footer {
+        .titleFooter {
+            font-size: 20px;
+            letter-spacing: 10px;
+    
+        }
+        .logoFoo {
+            margin: 75px 0px 100px 0px;
+        }
+        .botonesPremios {
+            top: -20px;
+        }
+    }
 }

@@ -137,6 +137,22 @@ body {
     margin: 0px 50px;
   }
 }
+/* Mobile <500px */
+@media screen and (max-width: 499px) {
+  .textIntro h1 {
+    font-size: 28px;
+    letter-spacing: 25px;
+  }
+  .introM {
+    width: 100%;
+  }
+  .introM .textIntro {
+    margin: 0px 25px;
+  }
+  .introM .textIntro p {
+    margin-right: 0px;
+  }
+}
 /* Web */
 .secProceso {
   max-width: 100%;
@@ -222,6 +238,16 @@ body {
     margin: 0px 25px;
   }
 }
+/* Mobile <500px */
+@media screen and (max-width: 499px) {
+  .proceso .titProces {
+    font-size: 25px;
+    letter-spacing: 20px;
+  }
+  .proceso .map {
+    margin: 60px 0px 80px 0px;
+  }
+}
 .productSec {
   background-image: url("/assets/backProduct.svg");
   display: flex;
@@ -265,7 +291,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left;
-  margin-left: 25px;
+  margin: 0px 20px 0px 5px;
 }
 .titleProdSec {
   display: flex;
@@ -287,8 +313,101 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 3px;
 }
 
+/* Reajuste a resolución <1300px */
+@media screen and (max-width: 1300px) {
+  .productSec {
+    height: 1700px;
+    margin-bottom: 120px;
+  }
+  .productSec .zoominU {
+    height: 429px;
+  }
+  .productSec .zoominD {
+    height: 429px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .productSec {
+    height: 1650px;
+    margin-bottom: 120px;
+  }
+  .productSec .zoominU {
+    height: 429px;
+  }
+  .productSec .zoominD {
+    height: 429px;
+  }
+}
+@media screen and (max-width: 899px) {
+  .productSec {
+    height: 1550px;
+    margin-bottom: 120px;
+  }
+  .productSec .araWhiteProd {
+    width: 200px;
+    height: 3px;
+  }
+  .productSec .zoominU {
+    height: 429px;
+  }
+  .productSec .zoominD {
+    height: 429px;
+  }
+}
+@media screen and (max-width: 809px) {
+  .productSec {
+    height: 1460px;
+    margin-bottom: 120px;
+  }
+}
+/* Reajuste a resolución 731 */
+@media screen and (max-width: 731px) {
+  .productSec {
+    height: 1220px;
+    margin-bottom: 100px;
+  }
+  .productSec .zoominU {
+    height: 300px;
+  }
+  .productSec .zoominD {
+    height: 300px;
+  }
+}
+/* Reajuste a resolución 641 */
+@media screen and (max-width: 641px) {
+  .productSec {
+    height: 2150px;
+    margin-bottom: 100px;
+    background-size: cover;
+  }
+  .productSec .zoomin {
+    position: relative;
+    top: -100px;
+    margin: 0px 0px 0px 0px;
+  }
+}
+/* Mobile <500px */
+@media screen and (max-width: 499px) {
+  .productSec {
+    height: 2070px;
+  }
+  .productSec .imgFoto img {
+    top: -120px;
+  }
+  .productSec .titleProdSec {
+    width: 99%;
+  }
+  .productSec .titleProdSec .titleProd {
+    font-size: 25px;
+    letter-spacing: 20px;
+  }
+  .postBote {
+    height: 200px;
+  }
+}
 .botellas {
   display: flex;
   justify-content: center;
@@ -326,6 +445,30 @@ body {
   margin-bottom: -190px;
 }
 
+/* Reajuste resolución <809 px> */
+@media screen and (max-width: 809px) {
+  .botellas img {
+    width: 180px;
+    margin-bottom: 100px;
+  }
+}
+/* Reajuste resolución <731 px> */
+@media screen and (max-width: 731px) {
+  .botellas img {
+    width: 150px;
+  }
+}
+/* Reajuste a resolución <641px */
+@media screen and (max-width: 641px) {
+  .botellas {
+    display: flex;
+    flex-direction: column;
+  }
+  .botellas img {
+    width: 190px;
+    margin-bottom: 100px;
+  }
+}
 .footer {
   display: flex;
   justify-content: center;
@@ -365,6 +508,18 @@ body {
   display: flex;
 }
 
+/* Reajuste a resolución >1080px*/
+@media screen and (max-width: 1080px) {
+  .footer .botonesPremios {
+    top: -60px;
+  }
+}
+/* Reajuste a resolución >860px*/
+@media screen and (max-width: 860px) {
+  .footer .botonesPremios {
+    top: -45px;
+  }
+}
 /* Reajuste a resolución >766px*/
 @media screen and (max-width: 766px) {
   .footer .titleFooter {
@@ -376,11 +531,27 @@ body {
   .footer .titleFooter {
     font-size: 25px;
   }
+  .footer .botonesPremios {
+    top: -30px;
+  }
 }
 /* Reajuste a resolución >564px*/
 @media screen and (max-width: 564px) {
   .footer .titleFooter {
     font-size: 20px;
     letter-spacing: 15px;
+  }
+}
+/* Mobile <500px */
+@media screen and (max-width: 499px) {
+  .footer .titleFooter {
+    font-size: 20px;
+    letter-spacing: 10px;
+  }
+  .footer .logoFoo {
+    margin: 75px 0px 100px 0px;
+  }
+  .footer .botonesPremios {
+    top: -20px;
   }
 }/*# sourceMappingURL=stylesteq.css.map */

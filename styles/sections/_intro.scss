@@ -170,4 +170,26 @@
     }
     
     }
+
+
+    /* Mobile <500px */
+@media screen and (max-width: 499px) {
+    .textIntro {
+        h1 {
+            font-size: 28px;
+            letter-spacing: 25px;
+        }
+    }
+
+    .introM {
+        width: 100%;
+        .textIntro {
+            margin: 0px 25px;
+            p {
+                margin-right: 0px;
+            }
+        }
+    }
+    
+}
     
