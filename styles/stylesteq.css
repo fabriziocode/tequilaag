@@ -283,6 +283,9 @@ body {
   background-position: right;
   margin-right: 25px;
 }
+.zoomin .zoominU:hover {
+  background-image: url("/assets/botellaProdHover.png");
+}
 .zoomin .zoominD {
   display: flex;
   justify-content: flex-start;
@@ -293,6 +296,10 @@ body {
   background-position: left;
   margin: 0px 20px 0px 5px;
 }
+.zoomin .zoominD:hover {
+  background-image: url("/assets/cajaHover.png");
+}
+
 .titleProdSec {
   display: flex;
   flex-direction: column;
@@ -421,6 +428,9 @@ body {
   max-width: 230px;
   margin: 0px 20px;
 }
+.botellas .botella1:hover {
+  filter: drop-shadow(0px 0px 20px #577E8C);
+}
 .botellas .botella2 {
   display: flex;
   justify-content: center;
@@ -428,12 +438,18 @@ body {
   max-width: 230px;
   margin: 0px 20px;
 }
+.botellas .botella2:hover {
+  filter: drop-shadow(0px 0px 20px #577E8C);
+}
 .botellas .botella3 {
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 230px;
   margin: 0px 20px;
+}
+.botellas .botella3:hover {
+  filter: drop-shadow(0px 0px 20px #577E8C);
 }
 
 .postBote {

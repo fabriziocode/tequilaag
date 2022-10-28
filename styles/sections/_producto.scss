@@ -40,11 +40,9 @@
         background-size: contain;
         background-position: right;
         margin-right: 25px;
-        // img {
-        //     width: 186px;
-        //     height: 420px;
-        //     margin-right: 25px;
-        // }
+        &:hover {
+            background-image: url("/assets/botellaProdHover.png");
+        }
     }
     .zoominD {
         display: flex;
@@ -55,16 +53,11 @@
         background-size: contain;
         background-position: left;
         margin: 0px 20px 0px 5px;
-        // &:hover {
-            //     <img src = "/asse";;
-            // }
-        img {
-            // width: 255px;
-            // height: 460px;
-            // margin-left: 25px;
+        &:hover {
+            background-image: url("/assets/cajaHover.png");
+        }
         }
     }
-}
 
 .titleProdSec {
     display: flex;

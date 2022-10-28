@@ -9,6 +9,10 @@
         align-items: center;
         max-width: 230px;
         margin: 0px 20px;
+        &:hover {
+            // background-color: rgba(87,126,140,0.5);
+            filter: drop-shadow(0px 0px 20px #577E8C);
+        }
     }
     .botella2 {
         display: flex;
@@ -16,6 +20,9 @@
         align-items: center;
         max-width: 230px;
         margin: 0px 20px;
+        &:hover {
+            filter: drop-shadow(0px 0px 20px #577E8C);
+        }
     }
     .botella3 {
         display: flex;
@@ -23,6 +30,9 @@
         align-items: center;
         max-width: 230px;
         margin: 0px 20px;
+        &:hover {
+            filter: drop-shadow(0px 0px 20px #577E8C);
+        }
     }
 }
 
