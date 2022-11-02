@@ -277,27 +277,27 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-image: url("/assets/botellaProd.png");
+  background-image: url("../../assets/botellaProd.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
   margin-right: 25px;
 }
 .zoomin .zoominU:hover {
-  background-image: url("/assets/botellaProdHover.png");
+  background-image: url("../../assets/botellaProdHover.png");
 }
 .zoomin .zoominD {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-image: url("/assets/caja.png");
+  background-image: url("../../assets/caja.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left;
   margin: 0px 20px 0px 5px;
 }
 .zoomin .zoominD:hover {
-  background-image: url("/assets/cajaHover.png");
+  background-image: url("../../assets/cajaHover.png");
 }
 
 .titleProdSec {
